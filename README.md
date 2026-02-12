@@ -83,8 +83,9 @@ Responsive portfolio built using HTML5, CSS3, and JavaScript.
 ## 📫 Connect With Me
 
 📧 Email: janarthanan057@gmail.com  
-💼 LinkedIn: linkedin.com/in/your-link  
-🌐 Portfolio: your-portfolio-link  
+💼 LinkedIn: www.linkedin.com/in/janarthananmit/
+
+
 
 ---
 
