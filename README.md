@@ -1,4 +1,4 @@
-# 🚀 Hi, I'm Janarthanan S
+# 🚀 Hi, I'm Janarthanan 
 
 🎓 Electronics & Communication Engineering Student  
 💻 Aspiring Data Scientist | Software Developer  
