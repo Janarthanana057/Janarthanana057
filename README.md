@@ -101,13 +101,16 @@ A responsive personal portfolio website showcasing projects, skills, and achieve
 Tech Stack: HTML5, CSS3, JavaScript  
 
 ---
-
 ## 📈 Competitive Programming Platforms
 
-🔗 LeetCode: https://leetcode.com/u/janarthanan057/
+![LeetCode Stats](https://leetcard.jacoblin.cool/janarthanan057?theme=dark&font=Baloo&ext=contest)
 
-🔗 CodeChef: https://www.codechef.com/users/s_janarthanan
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/janarthanan057/)
 
+[![CodeChef](https://img.shields.io/badge/CodeChef-Profile-brown?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/s_janarthanan)
+
+🔗 LeetCode: https://leetcode.com/u/janarthanan057/  
+🔗 CodeChef: https://www.codechef.com/users/s_janarthanan  
 
 ---
 
