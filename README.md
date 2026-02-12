@@ -22,12 +22,11 @@ I enjoy building scalable software systems and AI-driven applications that solve
 ## 🛠️ Technical Skills
 
 ### 💻 Programming Languages
-Python | Java | C | SQL | HTML5 | CSS3  
+Python | Java | HTML5 | CSS3  
 
 ### 📊 Data & Machine Learning
 Pandas | NumPy | scikit-learn | Matplotlib  
-Random Forest | SVM | LightGBM  
-DistilBERT | T5 | YOLO  
+Random Forest | SVM | LightGBM | YOLO  
 
 ### ⚙️ Tools & Platforms
 Git | GitHub | VS Code | Streamlit | Google Cloud  
@@ -106,19 +105,8 @@ Tech Stack: HTML5, CSS3, JavaScript
 ## 📈 Competitive Programming Platforms
 
 🔗 LeetCode – 380+ Problems Solved  
-🔗 CodeChef – 180+ Challenges Completed  
-🔗 GeeksforGeeks  
-🔗 Unstop  
-
----
-
-## 📊 GitHub Stats
-
-![Janarthanan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Janarthanana057&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Janarthanana057&layout=compact&theme=tokyonight)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Janarthanana057&theme=tokyonight)
+🔗 CodeChef – 180+ Challenges Completed   
+🔗 Unstop
 
 ---
 
