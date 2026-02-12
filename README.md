@@ -12,7 +12,7 @@ I am a highly motivated software developer with strong foundations in **Python, 
 
 I enjoy building scalable software systems and AI-driven applications that solve real-world problems.
 
-🔹 Solved **380+ LeetCode problems**  
+🔹 Solved **480+ LeetCode problems**  
 🔹 Solved **180+ CodeChef challenges**  
 🔹 Strong analytical & problem-solving skills  
 🔹 Passionate about writing clean, efficient, and maintainable code  
