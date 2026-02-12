@@ -105,6 +105,7 @@ Tech Stack: HTML5, CSS3, JavaScript
 ## 📈 Competitive Programming Platforms
 
 🔗 LeetCode: https://leetcode.com/u/janarthanan057/
+
 🔗 CodeChef: https://www.codechef.com/users/s_janarthanan
 
 
