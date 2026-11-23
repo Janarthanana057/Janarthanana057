@@ -278,10 +278,9 @@ jobs:
 
 **B.E. — Electronics and Communication Engineering**  
 Madras Institute of Technology (MIT), Anna University · 2026  
-CGPA: **7.28 / 10**
+
 
 **Diploma — Electronics and Communication Engineering**  
-Score: **94.30%**
 
 ## 📜 Certifications
 
