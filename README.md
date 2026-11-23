@@ -5,7 +5,7 @@
 
 # Hi, I'm Janarthanan S 👋
 
-### Aspiring Software Engineer · Python Backend Developer · AI/ML Enthusiast
+### Software Engineer · Python Backend Developer · React Developer · AI/ML Enthusiast
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1100&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+backend+systems+with+Python;Designing+REST+APIs+and+data-driven+applications;Solving+DSA+problems+and+learning+every+day;Exploring+AI%2FML+and+LLM-powered+products;Building+TrustPulse+AI" alt="Animated introduction" />
 
@@ -30,26 +30,26 @@
 
 ## 👨‍💻 About Me
 
-I'm an aspiring software engineer interested in building dependable backend applications and practical AI-powered products. My foundation combines Python programming, data structures and algorithms, object-oriented programming, database concepts, and hands-on application development.
+I'm a software engineering graduate focused on Python backend development and practical AI-powered products. I build and explore API-driven applications, work with relational databases, and apply software engineering fundamentals to real-world problems. My approach combines problem-solving, continuous learning, and a product-focused mindset.
 
-- **Backend:** Building with Python, FastAPI concepts, REST APIs, SQL, and application architecture.
+- **Backend engineering:** Python, FastAPI, REST API design, SQL, database integration, and application architecture.
 - **Problem solving:** 600+ LeetCode problems and 180+ CodeChef challenges.
 - **AI/ML:** Exploring data analysis, machine learning, NLP, computer vision, and LLM-powered workflows.
 - **Product mindset:** Developing **TrustPulse AI**, an independent initiative focused on making AI and technology news easier to follow.
-- **Currently interested in:** Python backend engineering, API development, databases, testing, and scalable software fundamentals.
+- **Engineering focus:** Maintainable backend services, API development, database design, automated testing, and reliable software fundamentals.
 
 I enjoy learning by building, testing ideas, debugging real problems, and improving the quality of my code.
 
 ## 🧰 Technical Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,fastapi,postgres,sqlite,redis,docker,git,github,githubactions,linux,vscode&theme=dark&perline=8" alt="Programming and developer tool icons" />
+  <img src="https://skillicons.dev/icons?i=python,react,html,css,fastapi,postgres,sqlite,redis,docker,git,github,githubactions,linux,vscode&theme=dark&perline=8" alt="Programming and developer tool icons" />
 </p>
 
 | Area | Technologies and concepts |
 |---|---|
-| **Programming** | Python, Java, JavaScript, SQL, HTML, CSS |
-| **Backend** | FastAPI, REST APIs, Streamlit |
+| **Programming & Frontend** | Python, React, SQL, HTML, CSS |
+| **Frontend** | React, HTML, CSS |\n| **Backend** | Python, FastAPI, REST APIs, Streamlit |
 | **Databases & ORM** | PostgreSQL, SQLite, SQLAlchemy, Alembic, Redis (basic) |
 | **Authentication** | JWT, OAuth2, bcrypt |
 | **AI / ML** | Pandas, NumPy, scikit-learn, NLP, Deep Learning, YOLO, OpenCV, Hugging Face |
@@ -121,7 +121,7 @@ An NLP-focused question-answering project exploring transformer-based language m
 
 A hackathon prototype concept for a voice-based assistant for a college environment, with separate public and authenticated user journeys. The intended scope includes answering college-related questions using institutional information and connected college-system data.
 
-**Prototype technology choices:** FastAPI, HTML, CSS, JavaScript, Groq Whisper for speech-to-text, and a hosted LLM.
+**Prototype technology choices:** FastAPI, HTML, CSS, React-oriented frontend work, Groq Whisper for speech-to-text, and a hosted LLM.
 
 **Status:** Prototype work. I have not linked a public source repository or described API integrations as complete because a matching public repository and its implementation could not be verified in this review.
 
