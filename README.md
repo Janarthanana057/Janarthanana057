@@ -138,8 +138,8 @@ Collect news, remove duplicates, analyse and summarise it with AI, and present i
   <tr>
     <td width="150"><b>Programming</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=py,java,js,html,css&theme=dark" alt="Python, Java, JavaScript, HTML, CSS" /><br/>
-      <sub>Python · Java · JavaScript · SQL · HTML · CSS</sub>
+      <img src="https://skillicons.dev/icons?i=py,html,css&theme=dark" alt="Python, HTML, CSS" /><br/>
+      <sub>Python · SQL · HTML · CSS</sub>
     </td>
   </tr>
   <tr>
@@ -255,7 +255,7 @@ Flask web application for logging and tracking hostel issues, with session-based
 #### Pothole Detection System
 **Computer vision for road safety**
 
-Pothole detection with YOLOv11 and YOLOv8, a CNN for feature learning and severity classification, and OpenCV for image and video processing. Dataset augmentation and model tuning, with **92% precision** on the evaluation dataset.
+Pothole detection with YOLOv11 and YOLOv8, a CNN for feature learning and severity classification, and OpenCV for image and video processing. Dataset augmentation and model tuning to support detection performance.
 
 <img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/YOLOv11-0B1020?style=flat-square&logoColor=white" alt="YOLOv11" /> <img src="https://img.shields.io/badge/OpenCV-0B1020?style=flat-square&logo=opencv&logoColor=5C3EE8" alt="OpenCV" /> <img src="https://img.shields.io/badge/Deep_Learning-0B1020?style=flat-square&logoColor=white" alt="Deep Learning" />
 
@@ -343,7 +343,7 @@ Regular practice in **data structures and algorithms**: arrays, strings, hashing
 - Built an ML preprocessing and prediction pipeline.
 - Worked on backend integration and documentation.
 
-**Software Engineer / ML Intern · Marscaptech Software Solutions**
+**Software Engineer / ML Intern · Marscaptech Software Solutions** <sub>May 2025 – July 2025</sub>
 
 - Developed a Diabetes Prediction System using machine learning.
 - Applied model evaluation and tuning to improve predictions.
@@ -362,11 +362,11 @@ Regular practice in **data structures and algorithms**: arrays, strings, hashing
     <td width="65%" valign="top">
       <b>B.E. Electronics and Communication Engineering</b><br/>
       Madras Institute of Technology, Anna University<br/>
-      <sub>2023 – 2026 · CGPA 7.28 / 10</sub>
+      <sub>2023 – 2026</sub>
       <br/><br/>
       <b>Diploma in Electronics and Communication Engineering</b><br/>
       Rajagopal Polytechnic College<br/>
-      <sub>2020 – 2023 · 94.30%</sub>
+      <sub>2020 – 2023</sub>
     </td>
     <td width="35%" valign="top">
       <b>Certifications</b><br/>
