@@ -1,83 +1,213 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Janarthanan S - Aspiring Software Engineer, Python Backend Developer, AI/ML Enthusiast" xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="bannerTitle bannerDesc" aria-label="Janarthanan S, Aspiring Software Engineer and Python Backend Developer. 600+ LeetCode problems solved. Building TrustPulse AI." xmlns:c2pa="http://c2pa.org/manifest">
+  <title id="bannerTitle">Janarthanan S - Aspiring Software Engineer | Python Backend Developer</title>
+  <desc id="bannerDesc">Dark developer-terminal banner with falling binary code, a scanning laser line and a terminal window showing a developer profile: backend engineer, Python and FastAPI, problem solving, 600+ LeetCode solved, building TrustPulse AI.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#03050F"/>
-      <stop offset="0.6" stop-color="#080D1F"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#02040B"/>
+      <stop offset="0.65" stop-color="#050A18"/>
       <stop offset="1" stop-color="#0B1020"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#34D399"/>
       <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
     <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
     <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.26"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.55"/>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanTrail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="termStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="highlightGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.5"/>
     </pattern>
-    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+
+    <linearGradient id="matrixFadeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="edgeFadeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="1"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="gridMask"><rect width="1200" height="320" fill="url(#gridFade)"/></mask>
+    <mask id="matrixMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="340">
+      <rect width="1200" height="340" fill="url(#matrixFadeGrad)"/>
+    </mask>
+    <mask id="edgeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="340">
+      <rect width="1200" height="340" fill="url(#edgeFadeGrad)"/>
+    </mask>
+    <clipPath id="canvasClip"><rect width="1200" height="340"/></clipPath>
+    <clipPath id="lineClip"><rect x="0" y="334" width="1200" height="6"/></clipPath>
+
+    <filter id="softGlow" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
   </defs>
 
   <style>
-    .mono { font-family: 'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace; }
+    .mono { font-family: 'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace; }
     .sans { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
-    .float-a { animation: floatA 9s ease-in-out infinite; }
-    .float-b { animation: floatB 11s ease-in-out infinite; }
-    .cursor  { animation: blink 1.1s steps(1) infinite; }
-    .rise    { animation: rise 1.2s ease-out both; }
-    .rise2   { animation: rise 1.2s ease-out 0.25s both; }
-    .rise3   { animation: rise 1.2s ease-out 0.5s both; }
-    @keyframes floatA { 0%,100% { transform: translate(0,0); }   50% { transform: translate(40px,18px); } }
-    @keyframes floatB { 0%,100% { transform: translate(0,0); }   50% { transform: translate(-36px,-14px); } }
-    @keyframes blink  { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
-    @keyframes rise   { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .mx   { font-family: 'Courier New',Consolas,monospace; font-size: 15px; animation: fall linear infinite; }
+    .fa   { animation: driftA 12s ease-in-out infinite; }
+    .fb   { animation: driftB 15s ease-in-out infinite; }
+    .fc   { animation: driftC 18s ease-in-out infinite; }
+    .in1  { animation: rise 1s ease-out 0.1s both; }
+    .in2  { animation: rise 1s ease-out 0.35s both; }
+    .in3  { animation: rise 1s ease-out 0.6s both; }
+    .in4  { animation: rise 1s ease-out 0.85s both; }
+    .in5  { animation: rise 1s ease-out 1.1s both; }
+    .ln1  { animation: type 0.5s ease-out 0.9s both; }
+    .ln2  { animation: type 0.5s ease-out 1.3s both; }
+    .ln3  { animation: type 0.5s ease-out 1.7s both; }
+    .ln4  { animation: type 0.5s ease-out 2.1s both; }
+    .ln5  { animation: type 0.5s ease-out 2.5s both; }
+    .ln6  { animation: type 0.5s ease-out 2.9s both; }
+    .ln7  { animation: type 0.5s ease-out 3.3s both; }
+    @keyframes fall   { from { transform: translateY(-210px); } to { transform: translateY(360px); } }
+    @keyframes driftA { 0%,100% { transform: translate(0,0); } 50% { transform: translate(46px,20px); } }
+    @keyframes driftB { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-40px,-16px); } }
+    @keyframes driftC { 0%,100% { transform: translate(0,0); } 50% { transform: translate(24px,-22px); } }
+    @keyframes rise   { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes type   { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .mx, .fa, .fb, .fc, .in1, .in2, .in3, .in4, .in5, .ln1, .ln2, .ln3, .ln4, .ln5, .ln6, .ln7 { animation: none; }
+    }
   </style>
 
-  <!-- background -->
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
-  <g class="float-a"><ellipse cx="230" cy="90" rx="320" ry="170" fill="url(#glowCyan)"/></g>
-  <g class="float-b"><ellipse cx="1000" cy="230" rx="340" ry="180" fill="url(#glowPurple)"/></g>
+  <g clip-path="url(#canvasClip)">
 
-  <!-- left: identity -->
-  <g class="rise">
-    <text x="70" y="86" class="mono" font-size="15" fill="#22D3EE" letter-spacing="3">SOFTWARE ENGINEER · BACKEND · AI/ML</text>
-  </g>
-  <g class="rise2">
-    <text x="66" y="165" class="sans" font-size="70" font-weight="700" fill="#F8FAFC" letter-spacing="-1">Janarthanan S</text>
-    <rect x="70" y="186" width="150" height="4" rx="2" fill="url(#accent)"/>
-  </g>
-  <g class="rise3">
-    <text x="70" y="232" class="sans" font-size="22" fill="#CBD5E1">Python Backend Developer · Problem Solver</text>
-    <text x="70" y="264" class="sans" font-size="16" fill="#64748B">B.E. ECE · Madras Institute of Technology, Anna University</text>
-  </g>
+    <!-- background -->
+    <rect width="1200" height="340" fill="url(#bgGrad)"/>
+    <rect width="1200" height="340" fill="url(#gridPattern)" mask="url(#edgeMask)"/>
 
-  <!-- right: code window -->
-  <g class="rise3">
-    <rect x="735" y="70" width="400" height="190" rx="12" fill="#0B1226" fill-opacity="0.85" stroke="#1E3A5F" stroke-width="1"/>
-    <path d="M735 82a12 12 0 0 1 12-12h376a12 12 0 0 1 12 12v22H735z" fill="#101A33"/>
-    <circle cx="758" cy="87" r="5" fill="#334155"/>
-    <circle cx="776" cy="87" r="5" fill="#334155"/>
-    <circle cx="794" cy="87" r="5" fill="#334155"/>
-    <text x="1118" y="91" class="mono" font-size="11" fill="#64748B" text-anchor="end">janarthanan.py</text>
+    <!-- floating glows -->
+    <g class="fa"><ellipse cx="220" cy="95" rx="340" ry="170" fill="url(#glowCyan)"/></g>
+    <g class="fb"><ellipse cx="1010" cy="250" rx="360" ry="180" fill="url(#glowPurple)"/></g>
+    <g class="fc"><ellipse cx="620" cy="300" rx="300" ry="110" fill="url(#glowGreen)"/></g>
 
-    <text x="758" y="136" class="mono" font-size="14" fill="#64748B"># what I do</text>
-    <text x="758" y="162" class="mono" font-size="14"><tspan fill="#C084FC">focus</tspan><tspan fill="#94A3B8"> = [</tspan><tspan fill="#67E8F9">"backend"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#67E8F9">"apis"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#67E8F9">"ai/ml"</tspan><tspan fill="#94A3B8">]</tspan></text>
-    <text x="758" y="188" class="mono" font-size="14"><tspan fill="#C084FC">solved</tspan><tspan fill="#94A3B8"> = </tspan><tspan fill="#67E8F9">"600+ LeetCode"</tspan></text>
-    <text x="758" y="214" class="mono" font-size="14"><tspan fill="#C084FC">building</tspan><tspan fill="#94A3B8"> = </tspan><tspan fill="#67E8F9">"TrustPulse AI"</tspan></text>
-    <rect class="cursor" x="758" y="226" width="9" height="16" fill="#22D3EE"/>
+    <!-- falling binary -->
+    <g mask="url(#matrixMask)" opacity="0.55">
+      <g mask="url(#edgeMask)">
+    <text class="mx" style="animation-duration:10s;animation-delay:-8.3s" fill="#34D399"><tspan x="22" y="68" fill-opacity="0.12">0</tspan><tspan x="22" y="85" fill-opacity="0.13">0</tspan><tspan x="22" y="102" fill-opacity="0.17">1</tspan><tspan x="22" y="119" fill-opacity="0.24">0</tspan><tspan x="22" y="136" fill-opacity="0.34">0</tspan><tspan x="22" y="153" fill-opacity="0.46">0</tspan><tspan x="22" y="170" fill-opacity="0.61">0</tspan><tspan x="22" y="187" fill-opacity="0.79">1</tspan><tspan x="22" y="204" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:7s;animation-delay:-7.0s" fill="#22D3EE"><tspan x="79" y="91" fill-opacity="0.12">0</tspan><tspan x="79" y="108" fill-opacity="0.14">0</tspan><tspan x="79" y="125" fill-opacity="0.22">0</tspan><tspan x="79" y="142" fill-opacity="0.34">0</tspan><tspan x="79" y="159" fill-opacity="0.51">1</tspan><tspan x="79" y="176" fill-opacity="0.73">0</tspan><tspan x="79" y="193" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:8s;animation-delay:-3.7s" fill="#22D3EE"><tspan x="136" y="172" fill-opacity="0.12">0</tspan><tspan x="136" y="189" fill-opacity="0.14">0</tspan><tspan x="136" y="206" fill-opacity="0.22">1</tspan><tspan x="136" y="223" fill-opacity="0.34">0</tspan><tspan x="136" y="240" fill-opacity="0.51">0</tspan><tspan x="136" y="257" fill-opacity="0.73">0</tspan><tspan x="136" y="274" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:12s;animation-delay:-0.8s" fill="#34D399"><tspan x="193" y="170" fill-opacity="0.12">0</tspan><tspan x="193" y="187" fill-opacity="0.14">0</tspan><tspan x="193" y="204" fill-opacity="0.22">1</tspan><tspan x="193" y="221" fill-opacity="0.34">1</tspan><tspan x="193" y="238" fill-opacity="0.51">1</tspan><tspan x="193" y="255" fill-opacity="0.73">1</tspan><tspan x="193" y="272" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:8s;animation-delay:-2.3s" fill="#8B5CF6"><tspan x="250" y="106" fill-opacity="0.12">0</tspan><tspan x="250" y="123" fill-opacity="0.13">0</tspan><tspan x="250" y="140" fill-opacity="0.17">1</tspan><tspan x="250" y="157" fill-opacity="0.24">1</tspan><tspan x="250" y="174" fill-opacity="0.34">1</tspan><tspan x="250" y="191" fill-opacity="0.46">1</tspan><tspan x="250" y="208" fill-opacity="0.61">1</tspan><tspan x="250" y="225" fill-opacity="0.79">0</tspan><tspan x="250" y="242" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:9s;animation-delay:-1.9s" fill="#22D3EE"><tspan x="307" y="72" fill-opacity="0.12">1</tspan><tspan x="307" y="89" fill-opacity="0.13">0</tspan><tspan x="307" y="106" fill-opacity="0.16">0</tspan><tspan x="307" y="123" fill-opacity="0.22">1</tspan><tspan x="307" y="140" fill-opacity="0.29">1</tspan><tspan x="307" y="157" fill-opacity="0.39">1</tspan><tspan x="307" y="174" fill-opacity="0.51">1</tspan><tspan x="307" y="191" fill-opacity="0.65">1</tspan><tspan x="307" y="208" fill-opacity="0.82">0</tspan><tspan x="307" y="225" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:12s;animation-delay:-8.5s" fill="#34D399"><tspan x="364" y="151" fill-opacity="0.12">0</tspan><tspan x="364" y="168" fill-opacity="0.13">1</tspan><tspan x="364" y="185" fill-opacity="0.17">1</tspan><tspan x="364" y="202" fill-opacity="0.24">1</tspan><tspan x="364" y="219" fill-opacity="0.34">1</tspan><tspan x="364" y="236" fill-opacity="0.46">1</tspan><tspan x="364" y="253" fill-opacity="0.61">0</tspan><tspan x="364" y="270" fill-opacity="0.79">1</tspan><tspan x="364" y="287" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:7s;animation-delay:-6.3s" fill="#34D399"><tspan x="421" y="186" fill-opacity="0.12">0</tspan><tspan x="421" y="203" fill-opacity="0.14">1</tspan><tspan x="421" y="220" fill-opacity="0.19">0</tspan><tspan x="421" y="237" fill-opacity="0.28">0</tspan><tspan x="421" y="254" fill-opacity="0.41">1</tspan><tspan x="421" y="271" fill-opacity="0.57">1</tspan><tspan x="421" y="288" fill-opacity="0.77">1</tspan><tspan x="421" y="305" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:10s;animation-delay:-7.0s" fill="#34D399"><tspan x="478" y="144" fill-opacity="0.12">0</tspan><tspan x="478" y="161" fill-opacity="0.14">1</tspan><tspan x="478" y="178" fill-opacity="0.19">1</tspan><tspan x="478" y="195" fill-opacity="0.28">1</tspan><tspan x="478" y="212" fill-opacity="0.41">1</tspan><tspan x="478" y="229" fill-opacity="0.57">1</tspan><tspan x="478" y="246" fill-opacity="0.77">0</tspan><tspan x="478" y="263" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:8s;animation-delay:-2.9s" fill="#8B5CF6"><tspan x="535" y="75" fill-opacity="0.12">0</tspan><tspan x="535" y="92" fill-opacity="0.14">0</tspan><tspan x="535" y="109" fill-opacity="0.22">1</tspan><tspan x="535" y="126" fill-opacity="0.34">0</tspan><tspan x="535" y="143" fill-opacity="0.51">1</tspan><tspan x="535" y="160" fill-opacity="0.73">1</tspan><tspan x="535" y="177" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:11s;animation-delay:-4.7s" fill="#34D399"><tspan x="592" y="137" fill-opacity="0.12">1</tspan><tspan x="592" y="154" fill-opacity="0.14">0</tspan><tspan x="592" y="171" fill-opacity="0.19">0</tspan><tspan x="592" y="188" fill-opacity="0.28">1</tspan><tspan x="592" y="205" fill-opacity="0.41">1</tspan><tspan x="592" y="222" fill-opacity="0.57">1</tspan><tspan x="592" y="239" fill-opacity="0.77">1</tspan><tspan x="592" y="256" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:12s;animation-delay:-5.1s" fill="#34D399"><tspan x="649" y="153" fill-opacity="0.12">0</tspan><tspan x="649" y="170" fill-opacity="0.14">0</tspan><tspan x="649" y="187" fill-opacity="0.22">0</tspan><tspan x="649" y="204" fill-opacity="0.34">1</tspan><tspan x="649" y="221" fill-opacity="0.51">0</tspan><tspan x="649" y="238" fill-opacity="0.73">0</tspan><tspan x="649" y="255" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:7s;animation-delay:-1.9s" fill="#34D399"><tspan x="706" y="56" fill-opacity="0.12">0</tspan><tspan x="706" y="73" fill-opacity="0.14">1</tspan><tspan x="706" y="90" fill-opacity="0.22">0</tspan><tspan x="706" y="107" fill-opacity="0.34">0</tspan><tspan x="706" y="124" fill-opacity="0.51">0</tspan><tspan x="706" y="141" fill-opacity="0.73">1</tspan><tspan x="706" y="158" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:11s;animation-delay:-4.6s" fill="#22D3EE"><tspan x="763" y="118" fill-opacity="0.12">0</tspan><tspan x="763" y="135" fill-opacity="0.13">0</tspan><tspan x="763" y="152" fill-opacity="0.17">1</tspan><tspan x="763" y="169" fill-opacity="0.24">1</tspan><tspan x="763" y="186" fill-opacity="0.34">1</tspan><tspan x="763" y="203" fill-opacity="0.46">1</tspan><tspan x="763" y="220" fill-opacity="0.61">1</tspan><tspan x="763" y="237" fill-opacity="0.79">0</tspan><tspan x="763" y="254" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:12s;animation-delay:-3.3s" fill="#22D3EE"><tspan x="820" y="117" fill-opacity="0.12">0</tspan><tspan x="820" y="134" fill-opacity="0.14">0</tspan><tspan x="820" y="151" fill-opacity="0.22">0</tspan><tspan x="820" y="168" fill-opacity="0.34">1</tspan><tspan x="820" y="185" fill-opacity="0.51">0</tspan><tspan x="820" y="202" fill-opacity="0.73">0</tspan><tspan x="820" y="219" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:11s;animation-delay:-4.6s" fill="#34D399"><tspan x="877" y="96" fill-opacity="0.12">1</tspan><tspan x="877" y="113" fill-opacity="0.14">0</tspan><tspan x="877" y="130" fill-opacity="0.22">1</tspan><tspan x="877" y="147" fill-opacity="0.34">0</tspan><tspan x="877" y="164" fill-opacity="0.51">0</tspan><tspan x="877" y="181" fill-opacity="0.73">0</tspan><tspan x="877" y="198" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:11s;animation-delay:-6.3s" fill="#34D399"><tspan x="934" y="81" fill-opacity="0.12">0</tspan><tspan x="934" y="98" fill-opacity="0.14">0</tspan><tspan x="934" y="115" fill-opacity="0.19">1</tspan><tspan x="934" y="132" fill-opacity="0.28">1</tspan><tspan x="934" y="149" fill-opacity="0.41">1</tspan><tspan x="934" y="166" fill-opacity="0.57">0</tspan><tspan x="934" y="183" fill-opacity="0.77">1</tspan><tspan x="934" y="200" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:7s;animation-delay:-2.8s" fill="#34D399"><tspan x="991" y="123" fill-opacity="0.12">0</tspan><tspan x="991" y="140" fill-opacity="0.13">1</tspan><tspan x="991" y="157" fill-opacity="0.17">0</tspan><tspan x="991" y="174" fill-opacity="0.24">1</tspan><tspan x="991" y="191" fill-opacity="0.34">0</tspan><tspan x="991" y="208" fill-opacity="0.46">1</tspan><tspan x="991" y="225" fill-opacity="0.61">0</tspan><tspan x="991" y="242" fill-opacity="0.79">1</tspan><tspan x="991" y="259" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:10s;animation-delay:-10.0s" fill="#8B5CF6"><tspan x="1048" y="60" fill-opacity="0.12">0</tspan><tspan x="1048" y="77" fill-opacity="0.14">1</tspan><tspan x="1048" y="94" fill-opacity="0.22">0</tspan><tspan x="1048" y="111" fill-opacity="0.34">1</tspan><tspan x="1048" y="128" fill-opacity="0.51">1</tspan><tspan x="1048" y="145" fill-opacity="0.73">0</tspan><tspan x="1048" y="162" fill-opacity="1.00">1</tspan></text>
+    <text class="mx" style="animation-duration:12s;animation-delay:-1.0s" fill="#8B5CF6"><tspan x="1105" y="132" fill-opacity="0.12">0</tspan><tspan x="1105" y="149" fill-opacity="0.13">0</tspan><tspan x="1105" y="166" fill-opacity="0.16">0</tspan><tspan x="1105" y="183" fill-opacity="0.22">0</tspan><tspan x="1105" y="200" fill-opacity="0.29">0</tspan><tspan x="1105" y="217" fill-opacity="0.39">1</tspan><tspan x="1105" y="234" fill-opacity="0.51">0</tspan><tspan x="1105" y="251" fill-opacity="0.65">1</tspan><tspan x="1105" y="268" fill-opacity="0.82">1</tspan><tspan x="1105" y="285" fill-opacity="1.00">0</tspan></text>
+    <text class="mx" style="animation-duration:7s;animation-delay:-1.3s" fill="#34D399"><tspan x="1162" y="35" fill-opacity="0.12">0</tspan><tspan x="1162" y="52" fill-opacity="0.14">1</tspan><tspan x="1162" y="69" fill-opacity="0.19">0</tspan><tspan x="1162" y="86" fill-opacity="0.28">0</tspan><tspan x="1162" y="103" fill-opacity="0.41">0</tspan><tspan x="1162" y="120" fill-opacity="0.57">1</tspan><tspan x="1162" y="137" fill-opacity="0.77">0</tspan><tspan x="1162" y="154" fill-opacity="1.00">1</tspan></text>
+      </g>
+    </g>
+
+    <!-- left: identity -->
+    <g class="in1">
+      <text x="70" y="76" class="mono" font-size="14" fill="#22D3EE" letter-spacing="2.5">SOFTWARE ENGINEER <tspan fill="#475569">|</tspan> PYTHON BACKEND <tspan fill="#475569">|</tspan> AI/ML</text>
+    </g>
+    <g class="in2">
+      <text x="68" y="150" class="sans" font-size="68" font-weight="700" fill="#22D3EE" opacity="0.35" filter="url(#textGlow)" letter-spacing="-1">Janarthanan S</text>
+      <text x="68" y="150" class="sans" font-size="68" font-weight="700" fill="#F8FAFC" letter-spacing="-1">Janarthanan S</text>
+      <rect x="70" y="170" width="150" height="4" rx="2" fill="url(#accentGrad)">
+        <animate attributeName="width" values="150;260;150" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </rect>
+    </g>
+    <g class="in3">
+      <text x="70" y="214" class="sans" font-size="25" font-weight="600" fill="#E2E8F0">Python Backend Developer</text>
+    </g>
+    <g class="in4">
+      <text x="70" y="244" class="sans" font-size="18" fill="#94A3B8">Problem Solver</text>
+    </g>
+    <g class="in5">
+      <text x="70" y="286" class="mono" font-size="14.5" fill="#34D399"><tspan fill="#22D3EE">&gt;</tspan> Building practical software and TrustPulse AI</text>
+      <text x="70" y="312" class="mono" font-size="12" fill="#64748B">github.com/Janarthanana057  ·  janarthanan-vert.vercel.app</text>
+    </g>
+
+    <!-- right: terminal -->
+    <g class="in2">
+      <rect x="690" y="40" width="450" height="258" rx="12" fill="#22D3EE" opacity="0.10" filter="url(#softGlow)"/>
+      <rect x="690" y="40" width="450" height="258" rx="12" fill="#070D1D" fill-opacity="0.88" stroke="url(#termStroke)" stroke-width="1.2"/>
+      <path d="M690 52a12 12 0 0 1 12-12h426a12 12 0 0 1 12 12v22H690z" fill="#0E1730"/>
+      <rect x="690" y="73" width="450" height="1" fill="#1E3A5F"/>
+      <circle cx="712" cy="57" r="5" fill="#FB7185" fill-opacity="0.8"/>
+      <circle cx="730" cy="57" r="5" fill="#FBBF24" fill-opacity="0.8"/>
+      <circle cx="748" cy="57" r="5" fill="#34D399" fill-opacity="0.8"/>
+      <text x="915" y="61" class="mono" font-size="11.5" fill="#64748B" text-anchor="middle">janarthanan@dev: ~/profile.py</text>
+    </g>
+
+    <g class="mono" font-size="15">
+      <g class="ln1"><text x="714" y="106" fill="#334155" font-size="12">1</text><text x="744" y="106" fill="#64748B"># developer profile</text></g>
+      <g class="ln2"><text x="714" y="134" fill="#334155" font-size="12">2</text><text x="744" y="134" fill="#E2E8F0">role <tspan fill="#94A3B8">=</tspan> <tspan fill="#6EE7B7">"backend engineer"</tspan></text></g>
+      <g class="ln3"><text x="714" y="162" fill="#334155" font-size="12">3</text><text x="744" y="162" fill="#E2E8F0">stack <tspan fill="#94A3B8">= [</tspan><tspan fill="#67E8F9">"Python"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#67E8F9">"FastAPI"</tspan><tspan fill="#94A3B8">]</tspan></text></g>
+      <g class="ln4"><text x="714" y="190" fill="#334155" font-size="12">4</text><text x="744" y="190" fill="#E2E8F0">focus <tspan fill="#94A3B8">=</tspan> <tspan fill="#6EE7B7">"problem solving"</tspan></text></g>
+      <g class="ln5"><text x="714" y="218" fill="#334155" font-size="12">5</text><text x="744" y="218" fill="#E2E8F0">solved <tspan fill="#94A3B8">=</tspan> <tspan fill="#6EE7B7">"600+ LeetCode"</tspan></text></g>
+      <g class="ln6"><text x="714" y="246" fill="#334155" font-size="12">6</text><text x="744" y="246" fill="#E2E8F0">building <tspan fill="#94A3B8">=</tspan> <tspan fill="#C084FC">"TrustPulse AI"</tspan></text></g>
+      <g class="ln7">
+        <text x="714" y="274" fill="#334155" font-size="12">7</text>
+        <text x="744" y="274" fill="#22D3EE">&gt;&gt;&gt;</text>
+        <rect x="786" y="261" width="9" height="16" fill="#22D3EE">
+          <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- scanning laser -->
+    <g>
+      <rect x="0" y="-60" width="1200" height="60" fill="url(#scanTrail)"/>
+      <rect x="0" y="-1" width="1200" height="2" fill="url(#scanGrad)"/>
+      <rect x="0" y="-3" width="1200" height="6" fill="url(#scanGrad)" opacity="0.5" filter="url(#softGlow)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -20;0 360" keyTimes="0;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- bottom accent line with travelling highlight -->
+    <rect x="0" y="336" width="1200" height="4" fill="url(#accentGrad)" opacity="0.55"/>
+    <g clip-path="url(#lineClip)">
+      <rect x="-260" y="334" width="260" height="6" fill="url(#highlightGrad)">
+        <animate attributeName="x" values="-260;1200" dur="5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
-
-  <!-- bottom accent line -->
-  <rect x="0" y="316" width="1200" height="4" fill="url(#accent)" opacity="0.9"/>
-<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxYjA2MzIzMi03MTI3LTQ3Y2EtYjU5ZS00MGQ5MzNiZjQ1ZjYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAh3iVZNxbtN5ylvU8MseQkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjYjE5ZDY5Yi1kMWFiLTQ1ZjQtYmJmNy04MWI5ZWI5ZjExNGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNotPrl5H8B0BdWYKrgKP38zAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggi9B5jhvZTrwKTG+8XLJT3sP+XNFs6Z/dukxtxKOeUbakZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaE4kQSXUXGdrFhsiGuzY368AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYINPn7Nkp97UFwRxUkNsDEnAxlAiHXOwmnxCw1Hg+bkDsZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GRQXZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjFiMDYzMjMyLTcxMjctNDdjYS1iNTllLTQwZDkzM2JmNDVmNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjdiNTBlODZkLTRlZTYtNDBlYS1iNjQxLTg4N2MxZDdkZTgyM3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCL0HmOG9lOvApMb7xcslPew/5c0Wzpn926TG3Eo55RtqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggiXsiEmxdw6x+t3/t9YCNwUy5WruQyDTM3O5pz+C37qmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggXX+HUWD0XKmM+LCaGsgN7sQaZ90NRc5RdwZfvoYxw4d0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQOdKj/Z6gFgmkFnC+rTpZznxgJmr769CHkwhFUPbil1ouVgv52pR2qXmn3PgRHn4y+KLOrmul0pqW3GHHM/qpqE=</c2pa:manifest></metadata></svg>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyYmMxYjg4My0yNzZhLTQyMGYtYmRjOC04ZTNhZjkyMzZjOGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMcqFf2y/rOi6a/JbVTAlXwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpkMjM3ZWY1ZS01Mjk0LTQ4NTgtOGViZi1kZTE0YmZmZTY5NjBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoRHtD5WcMWmxKSupMwKfTnwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgghyfSlszBXjE5eK0ZiWNgq5KePLH+9blAKUI9QDjVGzKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGgDceHqjnC0GxB20bQ6nsQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIGUuqqejIWB69X74qQvMvEVB/LnvO7Dca3kksuIBFntsZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GVg+Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjJiYzFiODgzLTI3NmEtNDIwZi1iZGM4LThlM2FmOTIzNmM4Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjU0M2UzYzFjLWM1ZmEtNDVlZC05OTQyLWQ5ZjY3Yzk1ZTA1NnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCHJ9KWzMFeMTl4rRmJY2Crkp48sf71uUApQj1AONUbMqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggjvyrax3h5IuSEzcNCDmgS2qTJn1baUYUAIM+cnuW1g6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggTdJGqZvZnhLGHr0r67r1kjbZ6IMysSuxw6o9+Hsq2eJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCX602lue/CSVNeMn69Hor++x0ICNTC8Iu7f0lA8a0K1/hTPLl09Hbq2A7t9m8VZLEj9KdxmVC+0xZ3NVxI2PfY=</c2pa:manifest></metadata></svg>
