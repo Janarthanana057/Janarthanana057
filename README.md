@@ -407,51 +407,50 @@ Regular practice in **data structures and algorithms**: arrays, strings, hashing
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+
 <div align="center">
 
-## ⚡ GitHub Analytics
+<h2>⚡ GitHub Analytics</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=650&height=30&lines=Consistency+over+intensity.;Building%2C+learning%2C+and+shipping.;Every+contribution+is+progress." alt="Animated GitHub analytics subtitle" />
-
-<br/>
-
-<a href="https://github.com/Janarthanana057">
-  <img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="GitHub profile contribution summary" width="98%" />
-</a>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub statistics" width="49%" />
-<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Most productive coding time" width="49%" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repositories by language" width="49%" />
-<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages by commits" width="49%" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2500&pause=800&color=00F5A0&center=true&vCenter=true&width=600&lines=Code.+Build.+Innovate.;Consistency+over+intensity.;Learning+%7C+Building+%7C+Deploying" />
 
 <br/><br/>
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=Janarthanana057&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE" alt="GitHub contribution streak" width="98%" />
-</a>
+<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/0-profile-details.svg" width="98%" alt="GitHub Profile Summary"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub Stats"/>
+<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive Time"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repositories per Language"/>
+<img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most Used Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Janarthanana057&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117&color=22D3EE&line=8B5CF6&point=22D3EE" alt="GitHub contribution activity graph" width="98%" />
+<img src="https://streak-stats.demolab.com?user=Janarthanana057&theme=tokyonight&hide_border=true&background=0D1117&ring=00F5A0&fire=8B5CF6&currStreakLabel=00F5A0" width="98%" alt="GitHub Streak"/>
 
 <br/><br/>
 
-### 🐍 Contribution Journey
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Janarthanana057&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Contribution Activity"/>
+
+<br/><br/>
+
+<h3>🐍 Contribution Journey</h3>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg" />
-  <img alt="Animated snake following GitHub contribution activity" src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg" width="98%" />
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg"
+       width="98%" alt="Animated GitHub Contribution Snake"/>
 </picture>
 
-<sub>Statistics and activity visualisations are provided by third-party services and may occasionally be unavailable or update with a delay.</sub>
-
 </div>
+
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
