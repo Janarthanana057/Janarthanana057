@@ -1,274 +1,471 @@
-<div align="center">
-
-<!-- Colorful animated header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,25:0072FF,50:7F00FF,75:FF00C8,100:FF8A00&height=210&section=header&text=JANARTHANAN%20S&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Software%20Engineer%20%7C%20Python%20Backend%20%7C%20React%20%7C%20AI%2FML&descAlignY=62&descSize=17&animation=fadeIn" width="100%" alt="Colorful animated Janarthanan S developer banner" />
-
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2400&pause=700&color=00E5FF&center=true&vCenter=true&width=850&height=55&lines=Python+Backend+Developer;Building+REST+APIs+with+FastAPI;React+Developer;Solving+Data+Structures+%26+Algorithms;AI%2FML+Enthusiast;Building+TrustPulse+AI" alt="Animated developer role descriptions" />
-</a>
-
-<p>
-  <a href="https://github.com/Janarthanana057"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/janarthanan-s-649729262/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://janarthanan-vert.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:janarthanan057@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Janarthanana057&style=for-the-badge&color=7F00FF&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/Janarthanana057?style=for-the-badge&color=00B4D8&label=FOLLOWERS" alt="GitHub followers" />
-</p>
-
-</div>
-
----
-
-## 👋 About Me
-
-I'm a software engineering graduate in Electronics and Communication Engineering from **Madras Institute of Technology, Anna University**. I enjoy building reliable backend applications, useful web experiences, and practical AI-powered products.
-
-- **Backend engineering:** Python, FastAPI, REST API design, SQL, database integration, and application architecture.
-- **Problem solving:** Regular practice with data structures and algorithms on LeetCode and CodeChef.
-- **Frontend development:** React, HTML, CSS, and TypeScript.
-- **AI/ML:** Exploring NLP, computer vision, machine learning, and LLM-powered workflows.
-- **Product mindset:** Developing **TrustPulse AI**, an independent initiative focused on making AI and technology news easier to follow.
-
-## 🎯 Current Focus
-
-- Designing maintainable backend services with FastAPI.
-- Building REST APIs, authentication flows, and CRUD applications.
-- Working with PostgreSQL, SQLAlchemy, and database migrations.
-- Integrating AI/LLM capabilities into practical products.
-- Improving testing, Docker workflows, and deployment practices.
-
-## 🧰 Technical Skills
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,react,html,css,fastapi,postgres,sqlite,redis,docker,git,github,githubactions,linux,vscode&theme=dark&perline=7" alt="Programming and developer tool icons" />
-</p>
-
-| Area | Technologies and concepts |
-|---|---|
-| **Programming** | Python, SQL |
-| **Frontend** | React, HTML, CSS, TypeScript |
-| **Backend** | FastAPI, Flask, REST APIs, Streamlit |
-| **Databases & ORM** | PostgreSQL, SQLite, SQLAlchemy, Alembic, Redis (basic) |
-| **Authentication** | JWT, OAuth2, bcrypt |
-| **AI / ML** | Pandas, NumPy, scikit-learn, NLP, Deep Learning, YOLO, OpenCV, Hugging Face |
-| **Developer tools** | Git, GitHub, Docker, Docker Compose, GitHub Actions, Pytest |
-| **Computer science** | DSA, OOP, DBMS, Operating Systems, Computer Networks, basic System Design |
-
----
-
-## 🧠 LeetCode — Problem Solving
+<!--
+  Janarthanan S - GitHub profile README
+  Setup notes (safe to delete this comment):
+  1. Commit README.md, assets/ and .github/workflows/ to the Janarthanana057/Janarthanana057 repo (default branch: main).
+  2. Run both workflows once from the Actions tab (Generate Contribution Snake, Generate Profile Summary Cards).
+     The snake and summary-card images appear only after their first successful run.
+-->
 
 <div align="center">
 
-<a href="https://leetcode.com/u/janarthanan057/">
-  <img src="https://img.shields.io/badge/LeetCode-View%20My%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" />
-</a>
-
-<img src="https://img.shields.io/badge/600%2B-Problems%20Solved-00C853?style=for-the-badge&logo=leetcode&logoColor=white" alt="600 plus problems solved" />
-
-<img src="https://leetcard.jacoblin.cool/janarthanan057?theme=dark&font=Baloo&ext=heatmap" width="90%" alt="LeetCode profile statistics and activity heatmap" />
-
-</div>
-
-I practise problem solving to strengthen algorithmic thinking, code quality, and the ability to analyse time and space complexity.
-
-**Topics I practise**
-- Arrays and strings
-- Hash maps and sets
-- Two pointers and sliding window
-- Binary search and sorting
-- Stacks and queues
-- Linked lists
-- Trees and graphs
-- Recursion and backtracking
-- Dynamic programming
-- Greedy algorithms
-
-**My approach:** Understand the problem → identify edge cases → choose an efficient approach → analyse complexity → test the implementation.
-
-[Visit my LeetCode profile](https://leetcode.com/u/janarthanan057/) · [View my CodeChef profile](https://www.codechef.com/users/s_janarthanan)
-
----
-
-## 🚀 Featured Projects
-
-### 1. TrustPulse AI — Independent AI & Technology News Initiative
-
-**“Verified AI & Technology News, Without the Noise.”**
-
-An independent product initiative exploring how AI can help people follow relevant developments in artificial intelligence and technology with less information overload.
-
-- Focus areas include news collection, deduplication, AI-assisted analysis, and concise summaries.
-- Product work spans a React/TypeScript frontend and Python-based backend components.
-- The working technology set includes Tailwind CSS, Vite, SQLAlchemy, Alembic, SQLite, and LLM integration.
-- The project is being developed iteratively; features and release status should be checked against current product updates.
-
-**Links:** [TrustPulse AI on LinkedIn](https://www.linkedin.com/company/143895932/) · [Contact](mailto:janarthanan057@gmail.com)
-
-*TrustPulse AI is an independent project in active development. Its main application source is not currently public.*
-
-### 2. Smart Hostel Issue Tracking System
-
-A web-based project for organizing hostel-related issue reporting and tracking.
-
-**Repository:** [smart-hostel-issue-tracker](https://github.com/Janarthanana057/smart-hostel-issue-tracker)
-
-**Technology direction:** Python, FastAPI, PostgreSQL, SQLAlchemy, Docker, JWT, Pytest, and GitHub Actions.
-
-### 3. Pothole Detection & Real-Time Alert System
-
-A computer-vision project exploring road pothole detection using YOLO models and OpenCV, with CNN-based feature learning and severity-classification work.
-
-- Explores YOLOv11 and YOLOv8 for object detection.
-- Uses Python and OpenCV for image/video processing.
-- Investigates severity classification and road-safety alerting.
-
-**Repository:** [Pothole-Detection-System](https://github.com/Janarthanana057/Pothole-Detection-System)
-
-### 4. Personal Expense Tracker
-
-A Streamlit application for recording and reviewing income and expenses, with visual summaries to help understand spending patterns.
-
-**Repository:** [Personal-Expense-Tracker](https://github.com/Janarthanana057/Personal-Expense-Tracker) · **[Live demo](https://personal-expensetracker.streamlit.app/)**
-
-**Stack:** Python, Streamlit, Pandas, Matplotlib.
-
-### 5. Smart Q&A System
-
-An NLP-focused question-answering project exploring transformer-based language models, including DistilBERT and T5, for contextual question answering.
-
-**Stack:** Python, Hugging Face Transformers, NLP, DistilBERT, T5.
-
-### 6. KIT VoiceMate — College Voice Assistant Prototype
-
-A hackathon prototype for a voice-based college assistant, with public and authenticated user journeys.
-
-**Prototype technology choices:** FastAPI, HTML, CSS, Groq Whisper for speech-to-text, and hosted LLM integration.
-
----
-
-## 🔷 Building TrustPulse AI
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/TrustPulse_AI-AI_%26_Technology_News-7F00FF?style=for-the-badge&logo=ai&logoColor=white" alt="TrustPulse AI" />
-
-**Verified AI & Technology News, Without the Noise.**
-
-<a href="https://www.linkedin.com/company/143895932/">
-  <img src="https://img.shields.io/badge/Follow_TrustPulse_AI-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="TrustPulse AI LinkedIn page" />
-</a>
-
-</div>
-
-**Mission:** Make the fast-moving AI and technology landscape easier to understand by helping readers discover relevant updates and follow the context behind them.
-
-**Product direction**
-- **Discover:** Collect technology and AI news from relevant sources.
-- **Organize:** Reduce duplicate coverage and group related information.
-- **Understand:** Explore LLM-assisted analysis and summarization.
-- **Build responsibly:** Prioritize source awareness, clarity, and transparent product development.
-
-**Technology landscape:** `React` · `TypeScript` · `Tailwind CSS` · `Vite` · `Python` · `SQLAlchemy` · `Alembic` · `SQLite` · `LLM Integration`
-
----
-
-## 💼 Internship Experience
-
-### Software Engineer Intern — Proxenix
-**July 2025 – September 2025**
-- Worked on a sentiment analysis application using Python.
-- Explored text preprocessing, TF-IDF feature extraction, and machine-learning workflows.
-- Worked with backend-oriented application development and API concepts.
-
-### Data Analyst / ML Intern — Marscaptech Software Solutions
-**May 2025 – July 2025**
-- Worked on a diabetes prediction application using machine-learning techniques.
-- Explored model training, hyperparameter tuning, and evaluation.
-- Built a Streamlit interface to make model predictions accessible through an application.
-
----
-
-## 🏅 Competitive Programming
-
-<div align="center">
-
-<a href="https://leetcode.com/u/janarthanan057/"><img src="https://img.shields.io/badge/LeetCode-Problem%20Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode problem solving" /></a>
-<a href="https://www.codechef.com/users/s_janarthanan"><img src="https://img.shields.io/badge/CodeChef-Competitive%20Programming-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
-<a href="https://www.hackerrank.com/"><img src="https://img.shields.io/badge/HackerRank-Certifications-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-
-</div>
-
-- LeetCode: 600+ problems solved — [View profile](https://leetcode.com/u/janarthanan057/)
-- CodeChef: 180+ challenges — [View profile](https://www.codechef.com/users/s_janarthanan)
-- HackerRank: Python Basic, SQL Basic, Problem Solving Basic, and REST API Intermediate credentials.
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
+<img src="./assets/banner.svg" alt="Janarthanan S - Aspiring Software Engineer | Python Backend Developer | AI/ML Enthusiast" width="100%" />
 
 <a href="https://github.com/Janarthanana057">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Janarthanana057&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="GitHub profile statistics" />
-</a>
-<a href="https://github.com/Janarthanana057">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janarthanana057&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&langs_count=8" alt="Most used languages from public repositories" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=0EA5E9&center=true&vCenter=true&width=760&height=54&lines=Aspiring+Software+Engineer%3BPython+Backend+Developer%3BBackend+API+Developer%3BProblem+Solver%3BAI%2FML+Enthusiast%3BBuilding+TrustPulse+AI" alt="Animated titles: Aspiring Software Engineer, Python Backend Developer, Backend API Developer, Problem Solver, AI/ML Enthusiast, Building TrustPulse AI" />
 </a>
 
-<br />
+<br/>
 
-<img src="https://streak-stats.demolab.com?user=Janarthanana057&hide_border=true&background=0D1117&ring=38BDF8&fire=8B5CF6&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Janarthanana057&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=8B5CF6&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph" />
-
-</div>
-
-### 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-contribution-grid-snake.svg" />
-    <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
-
-## 🎓 Education
-
-**B.E. — Electronics and Communication Engineering**  
-Madras Institute of Technology (MIT), Anna University · 2026
-
-**Diploma — Electronics and Communication Engineering**
-
-## 📜 Certifications
-
-- Python for Beginners — Scaler Academy
-- Basics of Python — Udemy
-- HackerRank: Python Basic, SQL Basic, Problem Solving Basic, REST API Intermediate
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in Python backend engineering, software development, and practical AI applications. I'm open to connecting with engineers, founders, recruiters, and teams working on meaningful products.
-
-<div align="center">
-
-<a href="mailto:janarthanan057@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Janarthanana057?tab=followers"><img src="https://img.shields.io/github/followers/Janarthanana057?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020&color=22D3EE" alt="GitHub followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=Janarthanana057&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0B1020&color=8B5CF6" alt="Profile views" />
+<br/>
 <a href="https://www.linkedin.com/in/janarthanan-s-649729262/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://janarthanan-vert.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://janarthanan-vert.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0B1020?style=for-the-badge&logo=vercel&logoColor=22D3EE" alt="Portfolio" /></a>
+<a href="https://leetcode.com/u/janarthanan057/"><img src="https://img.shields.io/badge/LeetCode-600%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode - 600+ problems solved" /></a>
+<a href="https://www.codechef.com/users/s_janarthanan"><img src="https://img.shields.io/badge/CodeChef-180%2B_Solved-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef - 180+ challenges solved" /></a>
 
-**Thanks for visiting my profile!**
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8A00,25:FF00C8,50:7F00FF,75:0072FF,100:00C6FF&height=120&section=footer" width="100%" alt="Colorful animated footer" />
+<table>
+  <tr>
+    <td align="center" width="25%"><b>Python · FastAPI</b><br/><sub>Backend &amp; REST APIs</sub></td>
+    <td align="center" width="25%"><b>DSA · OOP · DBMS</b><br/><sub>CS fundamentals</sub></td>
+    <td align="center" width="25%"><b>600+ · 180+</b><br/><sub>LeetCode · CodeChef</sub></td>
+    <td align="center" width="25%"><b>TrustPulse AI</b><br/><sub>Currently building</sub></td>
+  </tr>
+</table>
 
 </div>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## About Me
+
+</div>
+
+I'm a **B.E. Electronics and Communication Engineering** graduate (2026) from the **Madras Institute of Technology, Anna University**, focused on becoming a software engineer who builds reliable backend systems and practical AI-powered products.
+
+- **Strong foundations** in Python, Data Structures & Algorithms, OOP and core Computer Science.
+- **Hands-on backend work** with FastAPI, REST APIs, SQLAlchemy and Alembic migrations, OAuth2 authentication, and Docker.
+- **Problem solving at volume:** 600+ LeetCode problems and 180+ CodeChef challenges solved.
+- **Applied AI/ML:** NLP pipelines, computer vision with YOLO and OpenCV, and transformer-based question answering.
+- **Shipping practical software:** from API backends and Streamlit apps to a voice assistant prototype.
+- **Independent initiative:** building **[TrustPulse AI](#building-trustpulse-ai)**, an AI and technology news platform.
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Building TrustPulse AI
+
+</div>
+
+<div align="center">
+
+> ### *"Verified AI & Technology News, Without the Noise."*
+
+<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/Follow_TrustPulse_AI-on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow TrustPulse AI on LinkedIn" /></a>
+
+</div>
+
+**TrustPulse AI** is an independent AI and technology news initiative that I'm developing on my own. The goal is a platform that helps people discover, understand and stay current with artificial intelligence and technology developments, without the information overload.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+**Vision**<br/>
+A focused place to follow AI and technology news that prioritises reliable information over volume.
+
+**Mission**<br/>
+Collect news, remove duplicates, analyse and summarise it with AI, and present it in a clean, structured way.
+
+</td>
+    <td width="50%" valign="top">
+
+**Product focus**
+- News collection and deduplication
+- AI-based news analysis and summarisation
+- Structured news presentation
+- Modern frontend experience
+- Backend architecture with database integration
+- Automated testing and a scalable foundation
+
+</td>
+  </tr>
+</table>
+
+**Technology stack**
+
+<img src="https://img.shields.io/badge/React-0B1020?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-0B1020?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-0B1020?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Vite-0B1020?style=flat-square&logo=vite&logoColor=A78BFA" alt="Vite" />
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/SQLAlchemy-0B1020?style=flat-square&logo=sqlalchemy&logoColor=D71F00" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/Alembic-0B1020?style=flat-square&logoColor=white" alt="Alembic" />
+<img src="https://img.shields.io/badge/SQLite-0B1020?style=flat-square&logo=sqlite&logoColor=3B82F6" alt="SQLite" />
+<img src="https://img.shields.io/badge/LLM_Integration-0B1020?style=flat-square&logoColor=white" alt="LLM integration" />
+
+<table>
+  <tr>
+    <td><b>Status</b></td>
+    <td>In active development, continuously improved</td>
+  </tr>
+  <tr>
+    <td><b>Source code</b></td>
+    <td>Private for now. This section describes direction and focus, not shipped metrics.</td>
+  </tr>
+  <tr>
+    <td><b>Public links</b></td>
+    <td><a href="https://www.linkedin.com/company/143895932/">LinkedIn page</a> · <a href="https://github.com/Janarthanana057/trustpulse-privacy">Privacy policy repository</a></td>
+  </tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Technical Skills
+
+</div>
+
+<table>
+  <tr>
+    <td width="150"><b>Programming</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=py,java,js,html,css&theme=dark" alt="Python, Java, JavaScript, HTML, CSS" /><br/>
+      <sub>Python · Java · JavaScript · SQL · HTML · CSS</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=fastapi,flask&theme=dark" alt="FastAPI, Flask" /><br/>
+      <sub>FastAPI · Flask · REST APIs · Streamlit</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=postgres,sqlite,redis&theme=dark" alt="PostgreSQL, SQLite, Redis" /><br/>
+      <sub>PostgreSQL · SQLite · SQLAlchemy · Alembic · Redis (basic)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Authentication</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/JWT-0B1020?style=flat-square&logo=jsonwebtokens&logoColor=D63AFF" alt="JWT" />
+      <img src="https://img.shields.io/badge/OAuth2-0B1020?style=flat-square&logoColor=white" alt="OAuth2" />
+      <img src="https://img.shields.io/badge/bcrypt-0B1020?style=flat-square&logoColor=white" alt="bcrypt" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=pandas,numpy,sklearn,opencv&theme=dark" alt="Pandas, NumPy, scikit-learn, OpenCV" /><br/>
+      <img src="https://img.shields.io/badge/NLP-0B1020?style=flat-square&logoColor=white" alt="NLP" />
+      <img src="https://img.shields.io/badge/Deep_Learning-0B1020?style=flat-square&logoColor=white" alt="Deep Learning" />
+      <img src="https://img.shields.io/badge/YOLOv11-0B1020?style=flat-square&logoColor=white" alt="YOLOv11" />
+      <img src="https://img.shields.io/badge/Hugging_Face-0B1020?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Development</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,githubactions&theme=dark" alt="Git, GitHub, Docker, GitHub Actions" /><br/>
+      <sub>Git · GitHub · Docker · Docker Compose · GitHub Actions · Pytest</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Core CS</b></td>
+    <td><sub>DSA · OOP · DBMS · Operating Systems · Computer Networks · Basic System Design</sub></td>
+  </tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Featured Projects
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+#### TrustPulse AI
+**AI & technology news platform** · independent initiative
+
+Verified AI & Technology News, Without the Noise. News collection, deduplication and AI-based analysis, aimed at reliable technology information.
+
+<img src="https://img.shields.io/badge/React-0B1020?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-0B1020?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" /> <img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+
+[Read more](#building-trustpulse-ai) · [LinkedIn](https://www.linkedin.com/company/143895932/)<br/>
+<sub>Source is private; in active development.</sub>
+
+</td>
+    <td width="50%" valign="top">
+
+#### KIT VoiceMate
+**AI voice assistant prototype** for a demo institution
+
+Chat and voice interface (speech-to-text with Groq Whisper, spoken replies via browser speech synthesis) with public, student and teacher modes: attendance, timetable, and leave / on-duty requests with approval, all through the institute's API.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-0B1020?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" /> <img src="https://img.shields.io/badge/JavaScript-0B1020?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /> <img src="https://img.shields.io/badge/Groq_LLM-0B1020?style=flat-square&logoColor=white" alt="Groq LLM" />
+
+[Repository](https://github.com/Janarthanana057/KIT-VoiceMate)
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+#### Company API (FastAPI backend)
+**Backend service with authentication and migrations**
+
+Layered FastAPI project (routers, schemas, CRUD, models) with OAuth2 authentication, SQLAlchemy models, Alembic migrations, Docker / Docker Compose setup and a tests directory.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-0B1020?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" /> <img src="https://img.shields.io/badge/SQLAlchemy-0B1020?style=flat-square&logo=sqlalchemy&logoColor=D71F00" alt="SQLAlchemy" /> <img src="https://img.shields.io/badge/Docker-0B1020?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+
+[Repository](https://github.com/Janarthanana057/company-fastapi)
+
+</td>
+    <td width="50%" valign="top">
+
+#### Smart Hostel Issue Tracker
+**Hostel complaint management web app**
+
+Flask web application for logging and tracking hostel issues, with session-based login, photo uploads and a SQLAlchemy-backed database.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Flask-0B1020?style=flat-square&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/SQLAlchemy-0B1020?style=flat-square&logo=sqlalchemy&logoColor=D71F00" alt="SQLAlchemy" /> <img src="https://img.shields.io/badge/SQLite-0B1020?style=flat-square&logo=sqlite&logoColor=3B82F6" alt="SQLite" />
+
+[Repository](https://github.com/Janarthanana057/smart-hostel-issue-tracker)
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+#### Pothole Detection System
+**Computer vision for road safety**
+
+Pothole detection with YOLOv11 and YOLOv8, a CNN for feature learning and severity classification, and OpenCV for image and video processing. Dataset augmentation and model tuning, with **92% precision** on the evaluation dataset.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/YOLOv11-0B1020?style=flat-square&logoColor=white" alt="YOLOv11" /> <img src="https://img.shields.io/badge/OpenCV-0B1020?style=flat-square&logo=opencv&logoColor=5C3EE8" alt="OpenCV" /> <img src="https://img.shields.io/badge/Deep_Learning-0B1020?style=flat-square&logoColor=white" alt="Deep Learning" />
+
+[Repository](https://github.com/Janarthanana057/Pothole-Detection-System)
+
+</td>
+    <td width="50%" valign="top">
+
+#### Personal Expense Tracker
+**Interactive finance dashboard**
+
+Income and expense management with interactive dashboards, spending analysis and summarised financial reports.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Streamlit-0B1020?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" /> <img src="https://img.shields.io/badge/Pandas-0B1020?style=flat-square&logo=pandas&logoColor=150458" alt="Pandas" /> <img src="https://img.shields.io/badge/Matplotlib-0B1020?style=flat-square&logoColor=white" alt="Matplotlib" />
+
+[Repository](https://github.com/Janarthanana057/Personal-Expense-Tracker) · [Live demo](https://personal-expensetracker.streamlit.app/)
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+#### Smart Q&A System
+**Transformer-based question answering**
+
+Generates questions and answers from a story or paragraph using contextual understanding and transformer-based answer generation.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Hugging_Face-0B1020?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" /> <img src="https://img.shields.io/badge/DistilBERT-0B1020?style=flat-square&logoColor=white" alt="DistilBERT" /> <img src="https://img.shields.io/badge/T5-0B1020?style=flat-square&logoColor=white" alt="T5" />
+
+[Repository](https://github.com/Janarthanana057/qaprixmitry) · [Live demo](https://system-jana.streamlit.app/)
+
+</td>
+    <td width="50%" valign="top">
+
+#### Sentiment Analysis API
+**NLP pipeline served over REST**
+
+Text preprocessing, TF-IDF features and a Logistic Regression classifier, exposed through a FastAPI `/predict` endpoint that returns sentiment with a confidence score.
+
+<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-0B1020?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" /> <img src="https://img.shields.io/badge/scikit--learn-0B1020?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" /> <img src="https://img.shields.io/badge/NLP-0B1020?style=flat-square&logoColor=white" alt="NLP" />
+
+[Repository](https://github.com/Janarthanana057/sentiment-analysis-app)
+
+</td>
+  </tr>
+</table>
+
+<sub>Streamlit demos run on free hosting and may take a few seconds to wake up.</sub>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Competitive Programming
+
+</div>
+
+<div align="center">
+
+<a href="https://leetcode.com/u/janarthanan057/"><img src="https://img.shields.io/badge/LeetCode-600%2B_Problems_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode - 600+ problems solved" /></a>
+<a href="https://www.codechef.com/users/s_janarthanan"><img src="https://img.shields.io/badge/CodeChef-180%2B_Challenges_Solved-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef - 180+ challenges solved" /></a>
+
+<br/><br/>
+
+<a href="https://leetcode.com/u/janarthanan057/"><img src="https://leetcard.jacoblin.cool/janarthanan057?theme=dark" alt="LeetCode stats card" width="520" /></a>
+
+</div>
+
+Regular practice in **data structures and algorithms**: arrays, strings, hashing, recursion, trees, graphs and dynamic programming. This shapes how I approach problem decomposition, complexity trade-offs and clean implementations in production-style code.
+
+<!-- HackerRank: add a profile URL here if you want it linked; certifications are listed under Education. -->
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Experience
+
+</div>
+
+**Software Engineer Intern · Proxenix** <sub>July 2025 – September 2025</sub>
+
+- Developed a sentiment analysis system using Python and TF-IDF.
+- Implemented FastAPI REST endpoints for serving predictions.
+- Built an ML preprocessing and prediction pipeline.
+- Worked on backend integration and documentation.
+
+**Software Engineer / ML Intern · Marscaptech Software Solutions**
+
+- Developed a Diabetes Prediction System using machine learning.
+- Applied model evaluation and tuning to improve predictions.
+- Built a Streamlit application for interactive use.
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Education & Certifications
+
+</div>
+
+<table>
+  <tr>
+    <td width="65%" valign="top">
+      <b>B.E. Electronics and Communication Engineering</b><br/>
+      Madras Institute of Technology, Anna University<br/>
+      <sub>2023 – 2026 · CGPA 7.28 / 10</sub>
+      <br/><br/>
+      <b>Diploma in Electronics and Communication Engineering</b><br/>
+      Rajagopal Polytechnic College<br/>
+      <sub>2020 – 2023 · 94.30%</sub>
+    </td>
+    <td width="35%" valign="top">
+      <b>Certifications</b><br/>
+      <sub>
+      Python for Beginners · Scaler Academy<br/>
+      Basics of Python · Udemy<br/>
+      HackerRank · Python (Basic)<br/>
+      HackerRank · SQL (Basic)<br/>
+      HackerRank · Problem Solving (Basic)<br/>
+      HackerRank · REST API (Intermediate)
+      </sub>
+    </td>
+  </tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Achievements
+
+</div>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/600%2B-LeetCode_Problems-FFA116?style=for-the-badge&labelColor=0B1020" alt="600+ LeetCode problems" />
+<img src="https://img.shields.io/badge/180%2B-CodeChef_Challenges-5B4638?style=for-the-badge&labelColor=0B1020" alt="180+ CodeChef challenges" />
+<img src="https://img.shields.io/badge/Building-TrustPulse_AI-22D3EE?style=for-the-badge&labelColor=0B1020" alt="Building TrustPulse AI" />
+<img src="https://img.shields.io/badge/Projects-Backend_%C2%B7_AI%2FML_%C2%B7_Full--stack-8B5CF6?style=for-the-badge&labelColor=0B1020" alt="Multiple practical software projects" />
+
+</div>
+
+<!-- First open-source pull request (Nov 2026): add it here once its status (open / merged) is confirmed on GitHub. -->
+
+- Solved **600+ LeetCode problems** and **180+ CodeChef challenges**.
+- Built multiple practical software projects across backend APIs, ML and computer vision.
+- Developing **TrustPulse AI** as an independent technology initiative.
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## GitHub Analytics
+
+</div>
+
+<div align="center">
+
+<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="GitHub profile summary" width="49%" />
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" width="49%" />
+
+<img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repositories per language" width="49%" />
+<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages by commits" width="49%" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=Janarthanana057&theme=tokyonight&hide_border=true&border_radius=10&background=0B1020" alt="GitHub contribution streak" width="98%" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Janarthanana057&theme=tokyo-night&hide_border=true&area=true&bg_color=0B1020&color=22D3EE&line=8B5CF6&point=22D3EE&area_color=3B82F6" alt="GitHub contribution activity graph" width="98%" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Janarthanana057/Janarthanana057/output/github-snake.svg" width="98%" />
+</picture>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## Connect With Me
+
+</div>
+
+<div align="center">
+
+<a href="mailto:janarthanan057@gmail.com"><img src="https://img.shields.io/badge/Email-janarthanan057%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<br/>
+<a href="https://www.linkedin.com/in/janarthanan-s-649729262/"><img src="https://img.shields.io/badge/LinkedIn-Janarthanan_S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://janarthanan-vert.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-janarthanan--vert.vercel.app-0B1020?style=for-the-badge&logo=vercel&logoColor=22D3EE" alt="Portfolio" /></a>
+<br/>
+<a href="https://github.com/Janarthanana057"><img src="https://img.shields.io/badge/GitHub-Janarthanana057-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://leetcode.com/u/janarthanan057/"><img src="https://img.shields.io/badge/LeetCode-janarthanan057-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+<a href="https://www.codechef.com/users/s_janarthanan"><img src="https://img.shields.io/badge/CodeChef-s__janarthanan-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
+<br/>
+<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/TrustPulse_AI-Follow_on_LinkedIn-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0B1020" alt="TrustPulse AI on LinkedIn" /></a>
+
+<br/><br/>
+
+<sub>Open to software engineering opportunities · Python backend · APIs · AI/ML</sub>
+
+</div>
+
+<br/>
+
+<img src="./assets/banner.svg" width="100%" alt="" />
