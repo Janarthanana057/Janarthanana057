@@ -2,21 +2,32 @@ name: Generate Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # daily
-  workflow_dispatch:       # manual run from the Actions tab
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-cards.yml"
 
 permissions:
   contents: write
 
 jobs:
-  cards:
+  generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
-      - name: Generate cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release/v2
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          UTC_OFFSET: 5   # IST is UTC+5:30; the action takes whole hours
+
+      - name: Publish cards to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: profile-summary-card-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
