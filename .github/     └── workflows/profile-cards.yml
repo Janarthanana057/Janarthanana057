@@ -4,10 +4,14 @@ name: Generate Profile Summary Cards
 on:
   schedule:
     - cron: "17 0 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/profile-cards.yml"
 
 permissions:
   contents: write
@@ -17,18 +21,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate profile summary cards
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate and publish profile cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-
-      - name: Publish cards to output branch
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: output
-          folder: profile-summary-card-output
-          clean: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: "output"
+          AUTO_PUSH: true
+          TIME_ZONE: "Asia/Kolkata"
+          THEME: "tokyonight"
