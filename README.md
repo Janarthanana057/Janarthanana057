@@ -11,7 +11,7 @@
 <img src="./assets/banner.svg" alt="Janarthanan S - Aspiring Software Engineer | Python Backend Developer | AI/ML Enthusiast" width="100%" />
 
 <a href="https://github.com/Janarthanana057">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=0EA5E9&center=true&vCenter=true&width=760&height=54&lines=Aspiring+Software+Engineer%3BPython+Backend+Developer%3BBackend+API+Developer%3BProblem+Solver%3BAI%2FML+Enthusiast%3BBuilding+TrustPulse+AI" alt="Animated titles: Aspiring Software Engineer, Python Backend Developer, Backend API Developer, Problem Solver, AI/ML Enthusiast, Building TrustPulse AI" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=0EA5E9&center=true&vCenter=true&width=760&height=54&lines=Aspiring+Software+Engineer%3BPython+Backend+Developer%3BBackend+API+Developer%3BProblem+Solver%3BAI%2FML+Enthusiast%3BBuilding+TrustPulse" alt="Animated titles: Aspiring Software Engineer, Python Backend Developer, Backend API Developer, Problem Solver, AI/ML Enthusiast, Building TrustPulse" />
 </a>
 
 <br/>
@@ -31,7 +31,7 @@
     <td align="center" width="25%"><b>Python · FastAPI</b><br/><sub>Backend &amp; REST APIs</sub></td>
     <td align="center" width="25%"><b>DSA · OOP · DBMS</b><br/><sub>CS fundamentals</sub></td>
     <td align="center" width="25%"><b>600+ · 180+</b><br/><sub>LeetCode · CodeChef</sub></td>
-    <td align="center" width="25%"><b>TrustPulse AI</b><br/><sub>Currently building</sub></td>
+    <td align="center" width="25%"><b>TrustPulse</b><br/><sub>Technology &amp; Learning Initiative</sub></td>
   </tr>
 </table>
 
@@ -54,46 +54,49 @@ I'm a **B.E. Electronics and Communication Engineering** graduate (2026) from th
 - **Problem solving at volume:** 600+ LeetCode problems and 180+ CodeChef challenges solved.
 - **Applied AI/ML:** NLP pipelines, computer vision with YOLO and OpenCV, and transformer-based question answering.
 - **Shipping practical software:** from API backends and Streamlit apps to a voice assistant prototype.
-- **Independent initiative:** building **[TrustPulse AI](#building-trustpulse-ai)**, an AI and technology news platform.
+- **Independent initiative:** building **[TrustPulse](#building-trustpulse)**, a technology and learning initiative focused on practical experience, skill development, and software innovation.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-## Building TrustPulse AI
+## Building TrustPulse
 
 </div>
 
 <div align="center">
 
-> ### *"Verified AI & Technology News, Without the Noise."*
+> ### *"Learn. Build. Grow."*
 
-<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/Follow_TrustPulse_AI-on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow TrustPulse AI on LinkedIn" /></a>
+<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/Follow_TrustPulse-on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow TrustPulse on LinkedIn" /></a>
 
 </div>
 
-**TrustPulse AI** is an independent AI and technology news initiative that I'm developing on my own. The goal is a platform that helps people discover, understand and stay current with artificial intelligence and technology developments, without the information overload.
+**TrustPulse** is an emerging technology and learning initiative focused on student development, practical experience, and software innovation.
+
+Our goal is to connect people with opportunities to learn, gain experience, build real-world solutions, and grow professionally.
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
 **Vision**<br/>
-A focused place to follow AI and technology news that prioritises reliable information over volume.
+To build a trusted technology ecosystem where talent, learning, and innovation come together.
 
 **Mission**<br/>
-Collect news, remove duplicates, analyse and summarise it with AI, and present it in a clean, structured way.
+To make practical learning and technology opportunities more accessible, encourage innovation, and help people develop skills through meaningful work.
 
 </td>
     <td width="50%" valign="top">
 
-**Product focus**
-- News collection and deduplication
-- AI-based news analysis and summarisation
-- Structured news presentation
-- Modern frontend experience
-- Backend architecture with database integration
-- Automated testing and a scalable foundation
+**What We're Building**
+- Internship and learning programmes
+- Technical skill development
+- Practical assignments and real-world projects
+- Software and web application development
+- AI and emerging technology solutions
+- Career development opportunities
+- Collaboration and community growth
 
 </td>
   </tr>
@@ -114,7 +117,7 @@ Collect news, remove duplicates, analyse and summarise it with AI, and present i
 <table>
   <tr>
     <td><b>Status</b></td>
-    <td>In active development, continuously improved</td>
+    <td>Growing initiative; actively developing and improving the platform</td>
   </tr>
   <tr>
     <td><b>Source code</b></td>
@@ -122,7 +125,7 @@ Collect news, remove duplicates, analyse and summarise it with AI, and present i
   </tr>
   <tr>
     <td><b>Public links</b></td>
-    <td><a href="https://www.linkedin.com/company/143895932/">LinkedIn page</a> · <a href="https://github.com/Janarthanana057/trustpulse-privacy">Privacy policy repository</a></td>
+    <td><a href="https://trustpulse-web.pages.dev">Website</a> · <a href="https://www.linkedin.com/company/143895932/">LinkedIn page</a> · <a href="https://github.com/Janarthanana057/trustpulse-privacy">Privacy policy repository</a></td>
   </tr>
 </table>
 
@@ -199,15 +202,15 @@ Collect news, remove duplicates, analyse and summarise it with AI, and present i
   <tr>
     <td width="50%" valign="top">
 
-#### TrustPulse AI
-**AI & technology news platform** · independent initiative
+#### TrustPulse
+**Technology & learning initiative** · independent initiative
 
-Verified AI & Technology News, Without the Noise. News collection, deduplication and AI-based analysis, aimed at reliable technology information.
+TrustPulse – Learn. Build. Grow. A platform focused on student development, internship opportunities, skill development, practical assignments, real-world projects, software development, and technology innovation.
 
 <img src="https://img.shields.io/badge/React-0B1020?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-0B1020?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" /> <img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
 
-[Read more](#building-trustpulse-ai) · [LinkedIn](https://www.linkedin.com/company/143895932/)<br/>
-<sub>Source is private; in active development.</sub>
+[Visit Website](https://trustpulse-web.pages.dev) · [LinkedIn](https://www.linkedin.com/company/143895932/)<br/>
+<sub>Independently developed; continuously evolving.</sub>
 
 </td>
     <td width="50%" valign="top">
@@ -394,7 +397,7 @@ Regular practice in **data structures and algorithms**: arrays, strings, hashing
 
 <img src="https://img.shields.io/badge/600%2B-LeetCode_Problems-FFA116?style=for-the-badge&labelColor=0B1020" alt="600+ LeetCode problems" />
 <img src="https://img.shields.io/badge/180%2B-CodeChef_Challenges-5B4638?style=for-the-badge&labelColor=0B1020" alt="180+ CodeChef challenges" />
-<img src="https://img.shields.io/badge/Building-TrustPulse_AI-22D3EE?style=for-the-badge&labelColor=0B1020" alt="Building TrustPulse AI" />
+<img src="https://img.shields.io/badge/Building-TrustPulse-22D3EE?style=for-the-badge&labelColor=0B1020" alt="Building TrustPulse" />
 <img src="https://img.shields.io/badge/Projects-Backend_%C2%B7_AI%2FML_%C2%B7_Full--stack-8B5CF6?style=for-the-badge&labelColor=0B1020" alt="Multiple practical software projects" />
 
 </div>
@@ -411,7 +414,7 @@ I’m continuing to learn from open-source maintainers and contribute practical 
 
 - Solved **600+ LeetCode problems** and **180+ CodeChef challenges**.
 - Built multiple practical software projects across backend APIs, ML and computer vision.
-- Developing **TrustPulse AI** as an independent technology initiative.
+- Building **TrustPulse** – an independent technology and learning initiative focused on practical experience and software innovation.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -480,7 +483,7 @@ I’m continuing to learn from open-source maintainers and contribute practical 
 <a href="https://leetcode.com/u/janarthanan057/"><img src="https://img.shields.io/badge/LeetCode-janarthanan057-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
 <a href="https://www.codechef.com/users/s_janarthanan"><img src="https://img.shields.io/badge/CodeChef-s__janarthanan-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
 <br/>
-<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/TrustPulse_AI-Follow_on_LinkedIn-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0B1020" alt="TrustPulse AI on LinkedIn" /></a>
+<a href="https://www.linkedin.com/company/143895932/"><img src="https://img.shields.io/badge/TrustPulse-Follow_on_LinkedIn-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0B1020" alt="TrustPulse on LinkedIn" /></a>
 
 <br/><br/>
 
