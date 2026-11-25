@@ -94,7 +94,7 @@ To make practical learning and technology opportunities more accessible, encoura
 - Technical skill development
 - Practical assignments and real-world projects
 - Software and web application development
-- AI and emerging technology solutions
+- AI and emerging technology solutions 
 - Career development opportunities
 - Collaboration and community growth
 
@@ -242,7 +242,7 @@ Layered FastAPI project (routers, schemas, CRUD, models) with OAuth2 authenticat
     <td width="50%" valign="top">
 
 #### Smart Hostel Issue Tracker
-**Hostel complaint management web app**
+**Hostel complaint management web app **
 
 Flask web application for logging and tracking hostel issues, with session-based login, photo uploads and a SQLAlchemy-backed database.
 
